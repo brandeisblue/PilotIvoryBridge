@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "249708936111",
+    "firebase_url": "https://pilotivorybridge-65215.firebaseio.com",
+    "project_id": "pilotivorybridge-65215",
+    "storage_bucket": "pilotivorybridge-65215.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:249708936111:android:523b9ae842eb58a5",
+        "android_client_info": {
+          "package_name": "com.johnshopkins.ivorybridge.pilotivorybridge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "249708936111-b4rmfhtubgpnigc6hmf6m57hsrcuogc8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.johnshopkins.ivorybridge.pilotivorybridge",
+            "certificate_hash": "7f15eaafcad16f97492134fe66cf36ad4e2d5857"
+          }
+        },
+        {
+          "client_id": "249708936111-m7fh6oliq0202dpjh8gmnu37fho5rlon.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmzx9QYKh9zgg4JBYb_MQoEOhgK1Oan3s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "249708936111-m7fh6oliq0202dpjh8gmnu37fho5rlon.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

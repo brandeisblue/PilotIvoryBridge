@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/take_survey_menu"
+        android:title="@string/takesurvey"
+        />
+    <item
+        android:id="@+id/see_summary_menu"
+        android:title="@string/seehistory"
+        />
+    <item
+        android:id="@+id/connect_devices_menu"
+        android:title="@string/connectdevices"
+        />
+    <item
+        android:id="@+id/account_menu"
+        android:title="@string/account"
+        />
+    <item
+        android:id="@+id/signout_menu"
+        android:title="@string/signout"
+        />
+</menu>

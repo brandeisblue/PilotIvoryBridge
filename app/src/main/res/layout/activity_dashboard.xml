@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <RelativeLayout
+        android:id="@+id/relativelayout_hourly_weatherdata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/dashboard_weather_icon_imageview"
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/dashboard_weathercondition_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dashboard_weather_icon_imageview"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="16dp"
+            android:text="Partly Cloudy"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/dashboard_tempMax_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dashboard_weathercondition_textview"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="4dp"
+            android:text="High: 16 °C"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/dashboard_tempMin_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dashboard_tempMax_text_view"
+            android:layout_marginBottom="4dp"
+            android:layout_centerHorizontal="true"
+            android:text="Min: 16 °C"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/relativelayout_hourly_weatherdata"
+        android:background="@android:color/darker_gray"
+        android:paddingTop="16dp" />
+
+</RelativeLayout>
